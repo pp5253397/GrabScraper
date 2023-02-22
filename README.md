@@ -11,10 +11,10 @@ Here is a brief explanation of the code:
 - seleniumwire.webdriver: for controlling a web browser using Selenium with the ability to intercept network requests made by the browser
 - selenium.webdriver.common.by.By: for locating elements on the webpage using different types of selectors.
 
-2] Open the website on Chrome browser using Selenium WebDriver.
-3] Maximize the browser window for better visibility.
-4] Define a function named "write_json" to write new data to a JSON file.
-5] Define a function named "scroll_down" to scroll down the webpage and extract restaurant data.
+2] Open the website on Chrome browser using Selenium WebDriver.<br>
+3] Maximize the browser window for better visibility.<br>
+4] Define a function named "write_json" to write new data to a JSON file.<br>
+5] Define a function named "scroll_down" to scroll down the webpage and extract restaurant data.<br>
 6] In the "scroll_down" function:
 - Create an empty list named "post_data" to store the JSON data of restaurants.
 - Find the height of the webpage and enter a loop that scrolls down the webpage and captures POST requests until there are no more restaurants to load.
@@ -23,7 +23,7 @@ Here is a brief explanation of the code:
 - The JSON object is then processed to extract the latitude and longitude values of each restaurant and save it in a dictionary named "d".
 - After all the restaurants have been processed, the "d" dictionary is written to a JSON file using the "write_json" function.
 
-7] Call the "scroll_down" function once.
+7] Call the "scroll_down" function once.<br>
 8] Close the browser.
 
 ## Installation
