@@ -22,6 +22,7 @@ Here is a brief explanation of the code:
 - If it is a restaurant search request, the code decodes the response and converts it to a JSON object.
 - The JSON object is then processed to extract the latitude and longitude values of each restaurant and save it in a dictionary named "d".
 - After all the restaurants have been processed, the "d" dictionary is written to a JSON file using the "write_json" function.
+- Also, we have added method 'write_to_csv' to convert json to csv by means of converting the dict into dataframe of required format and dumping it into csv file. You can fin dthe csv file by the name of 'Final_data.csv' in the same directory.
 
 7] Call the "scroll_down" function once.<br>
 8] Close the browser.
